@@ -1,6 +1,6 @@
-﻿string[] dniTygodnia = { "poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela" };
-
-for (int i = 0; i < dniTygodnia.Length; i += 2 )
+﻿List<string>  dayOfWeeks = new List<string> { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+dayOfWeeks.Add("dupa");
+foreach (var day in dayOfWeeks)
 {
-    Console.WriteLine(dniTygodnia[i]);
+    Console.WriteLine(day);
 }
