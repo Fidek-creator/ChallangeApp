@@ -1,8 +1,6 @@
-﻿string name = "John";
-char sex = 'M';
-int age = 17;
+﻿string[] dniTygodnia = { "poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela" };
 
-if(name == "John" || sex == 'M' || age >= 18)
+for (int i = 0; i < dniTygodnia.Length; i += 2 )
 {
-    Console.WriteLine("Masz na imie john jestes mezczyzna i jestes niepelnoletni");
+    Console.WriteLine(dniTygodnia[i]);
 }
